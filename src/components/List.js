@@ -63,10 +63,20 @@ export default function List({
     setOpen(true);
   };
 
+    const handleClickOpen = () => {
+    setItemToUpdate(null);
+    setOpen(true);
+  };
+
   const handleClose = () => {
     setOpen(false);
   };
 
+    const handleClose = () => {
+    setOpen(false);
+  };
+
+  
   const handleEdit = (item) => {
     setItemToUpdate(item);
     setOpen(true);
