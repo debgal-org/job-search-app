@@ -15,8 +15,7 @@ html {
 .navbar {
   display: flex;
   padding: 15px;
-  width: 100%;
-  justify-content: center;
+  width: 
 }
 .not-selected {
   padding: 10px;
